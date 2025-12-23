@@ -1,3 +1,11 @@
-:root{
-	--skin-color:#cc3a3b;
+:root {
+    /* Primary color - Red */
+    --color-primary: #cc3a3b;
+    --color-primary-rgb: 204, 58, 59;
+    --color-primary-hover: rgba(204, 58, 59, 0.1);
+    --color-primary-subtle: rgba(204, 58, 59, 0.05);
+
+    /* Keep for backwards compatibility */
+    --skin-color: #cc3a3b;
+    --fb-typing-text: #cc3a3b;
 }

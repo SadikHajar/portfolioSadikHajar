@@ -1,3 +1,11 @@
-:root{
-	--skin-color:#ec9412;
+:root {
+    /* Primary color - Orange */
+    --color-primary: #ec9412;
+    --color-primary-rgb: 236, 148, 18;
+    --color-primary-hover: rgba(236, 148, 18, 0.1);
+    --color-primary-subtle: rgba(236, 148, 18, 0.05);
+
+    /* Keep for backwards compatibility */
+    --skin-color: #ec9412;
+    --fb-typing-text: #ec9412;
 }

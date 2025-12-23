@@ -1,3 +1,11 @@
-:root{
-	--skin-color:#fb839e;
+:root {
+    /* Primary color - Pink */
+    --color-primary: #fb839e;
+    --color-primary-rgb: 251, 131, 158;
+    --color-primary-hover: rgba(251, 131, 158, 0.1);
+    --color-primary-subtle: rgba(251, 131, 158, 0.05);
+
+    /* Keep for backwards compatibility */
+    --skin-color: #fb839e;
+    --fb-typing-text: #fb839e;
 }
